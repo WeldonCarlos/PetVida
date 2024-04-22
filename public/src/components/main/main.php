@@ -1,13 +1,17 @@
 
-<main>
-
 <?php
 
 include("./config/dbConfig.php");
 
+
 switch(@$_REQUEST['page']){
-  case "novo":
-    include("./view/home/home.php");
+
+  case "home":
+    include("./app/view/home/home.php");
+    break; 
+    
+  case "login":
+    include("./app/view/login/login.php");
     break;  
 
   default:
@@ -15,5 +19,7 @@ switch(@$_REQUEST['page']){
     
 };
 
+
+
+
 ?>
-</main>
