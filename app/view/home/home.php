@@ -5,7 +5,6 @@
 
 include("./public/src/components/carrossel/carrossel.php");
 
-
 ?>
 
 
