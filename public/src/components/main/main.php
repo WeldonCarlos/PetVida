@@ -37,6 +37,14 @@ switch (@$_REQUEST['page']) {
     include ("./app/view/categorias/coelhos/coelhos.php");
     break;
 
+  case "peixes":
+    include ("./app/view/categorias/peixes/peixes.php");
+    break;
+
+  case "repteis":
+    include ("./app/view/categorias/repteisRoedores/repteis.php");
+    break;
+
 
 
   default:
