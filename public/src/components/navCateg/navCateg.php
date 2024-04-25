@@ -16,10 +16,10 @@
             <a class="nav-link" href="index.php?page=coelhos" style="color: white;">Coelhos</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#" style="color: white;">Peixes</a>
+            <a class="nav-link" href="index.php?page=peixes" style="color: white;">Peixes</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#" style="color: white;">Répteis e Roedores</a>
+            <a class="nav-link" href="index.php?page=repteis" style="color: white;">Répteis e Roedores</a>
         </li>
 
 
