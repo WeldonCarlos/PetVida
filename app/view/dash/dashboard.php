@@ -2,18 +2,31 @@
 
 session_start();
 if (empty($_SESSION)) {
-    print "<script> location.href='index.php'</script>";
+  print "<script> location.href='index.php'</script>";
 }
-?>
-<nav class="navbar navbar-ligth bg-ligth">
-    <div class="container-fluid">
-        <a class="navbar-brand"> * Area do Cliente *  </a>  <br>
 
-        <?php 
-        
-        print "Olá, "  . $_SESSION["nome"]; 
-        print "<a href='../../../logout.php'> Sair </a>";
-        ?>
-    </div>
-</nav>
+
+?>
+
+<link rel="stylesheet" href="../../../public/src/css/geral.css">
+
+  <section style="display:flex; flex-direction:row; ">
+    <?php
+    include ("../../../public/src/components/compDash/barraLateral/menuLateral.php");
+
+
+    ?>
+
+    <section style="display:flex; flex-direction:column; width: 100%; ">
+
+      <?php
+      include ("../../../public/src/components/compDash/barraTopo/barraTopo.php");
+      include ("../../../public/src/components/compDash/mainDash/mainDash.php");
+
+      ?>
+    </section>
+
+  </section>
+
+
 
