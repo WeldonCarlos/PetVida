@@ -11,17 +11,17 @@ $produtosPassaros = array(
         array(
             'imagem' => './produtos/img-produtos/passaros/banheiraPapagaios.jpg',
             'produto' => 'Banheira p/Pass',
-            'preco' => 100.00
+            'preco' => 99.99
         ),
         array(
             'imagem' => './produtos/img-produtos/passaros/BrinquedosGrandes.jpg',
             'produto' => 'Brinquedo p/Pass',
-            'preco' => 31.90
+            'preco' => 31.99
         ),
         array(
             'imagem' => './produtos/img-produtos/passaros/BrinquedosParaCalopsitas.jpg',
             'produto' => 'Brinquedo p/Calop',
-            'preco' => 69.90
+            'preco' => 69.99
         ),
         array(
             'imagem' => './produtos/img-produtos/passaros/CasaDePassaros.jpg',
@@ -31,27 +31,27 @@ $produtosPassaros = array(
         array(
             'imagem' => './produtos/img-produtos/passaros/coberturaRedeGaiola.jpg',
             'produto' => 'Rede p/Gaiola',
-            'preco' => 52.90
+            'preco' => 52.99
         ),
         array(
             'imagem' => './produtos/img-produtos/passaros/ComedouroEBebedouro.jpg',
             'produto' => 'Comedouro',
-            'preco' => 250.00
+            'preco' => 249.99
         ),
         array(
             'imagem' => './produtos/img-produtos/passaros/GaiolaDePassaro.jpg',
             'produto' => 'Gaiola t/Premium',
-            'preco' => 500.00
+            'preco' => 49.99
         ),
         array(
             'imagem' => './produtos/img-produtos/passaros/Kit01AminosolPassaros.jpg',
             'produto' => 'Kit vitaminas',
-            'preco' => 399.00
+            'preco' => 39.99
         ),
         array(
             'imagem' => './produtos/img-produtos/passaros/PapagaioBrinquedo.jpg',
             'produto' => 'Brinq passaros',
-            'preco' => 49.90
+            'preco' => 49.99
         ),
         array(
             'imagem' => './produtos/img-produtos/passaros/saiaDeGaiola.jpg',
