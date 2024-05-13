@@ -3,7 +3,7 @@
         font-family: "Ubuntu", sans-serif;
         font-weight: 600;
         font-size: 25px;
-        margin: 25px 0 10px 45px;
+        margin: 25px 0 10px 34px;
         color: #854bc4;
     }
 
@@ -12,9 +12,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
-        gap: 12px;
-
+       
     }
 
     .card {
@@ -29,9 +27,10 @@
         background-color: #fff;
         border-radius: 8px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        padding: 20px ;
+        padding: 20px;
         gap: 10px;
-        
+        margin: 0 12px 12px 0;
+
 
     }
 

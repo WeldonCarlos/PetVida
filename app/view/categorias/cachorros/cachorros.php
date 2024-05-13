@@ -12,8 +12,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 15px;
-
     }
 
     .card {
@@ -30,6 +28,7 @@
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         padding: 20px;
         gap: 10px;
+        margin: 0 12px 12px 0;
 
     }
 
