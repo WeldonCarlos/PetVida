@@ -42,7 +42,7 @@ switch (@$_REQUEST['page']) {
     break;
 
   case "repteis":
-    include ("./app/view/categorias/repteisRoedores/repteis.php");
+    include ("./app/view/categorias/repteis/repteis.php");
     break;
 
 
