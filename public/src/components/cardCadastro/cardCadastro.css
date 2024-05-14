@@ -1,0 +1,63 @@
+h1 {
+  align-items: center;
+}
+
+/* Estilo para centralizar o conteúdo na tela */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.form-post {
+  border: 1px solid #764ea0;
+  border-radius: 15px;
+  padding: 30px 80px;
+  font-weight: bold;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  color: #764ea0;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  .form-post{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 250px;
+    height: 320px;
+    justify-content: center;
+    
+    
+  }
+  .titulo{
+    font-size: 15px;
+    margin-top: -22px;
+    margin-bottom: 0;
+    margin-left: -50px;
+  }
+ 
+ .mb-3{
+    font-size: 13px;
+ }
+  .col-sm-12{
+    width: 180px;
+    height: 10px;
+    
+  }
+
+  .d-grid{
+    margin-top: 10px;
+    
+  }
+}

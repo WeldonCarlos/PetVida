@@ -99,11 +99,11 @@
     .nav {
       display: flex;
       align-items: center;
-      gap: 5px;
+      gap: 40px;
       height: 75px;
       font-family: Ubuntu, sans-serif;
       font-weight: 500;
-      font-size: 23px;
+      font-size: 21px;
       justify-content: center;
     }
   
