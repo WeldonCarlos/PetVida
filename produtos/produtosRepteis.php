@@ -48,7 +48,7 @@ $produtosRepteis = array(
             'preco' => 30.49
         ),
         array(
-            'imagem' => './produtos/img-produtos/repteis/OrnamentoCavernaTerario.jpg',
+            'imagem' => './produtos/img-produtos/repteis/OrnamentoCavernaTerrario.jpg',
             'produto' => 'Ornamento',
             'descrição' => '',
             'preco' => 10.99

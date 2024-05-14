@@ -1,13 +1,11 @@
-<link rel="stylesheet" href="./app/view/categorias/css/categorias.css">
+<link rel="stylesheet" href="./public/src/components/grid-Home/grid-Home.css">
 
-
-<h1 class="titulos-produto-dog">Para Cachorros</h1>
 <div class="div-super">
 
     <?php
-    include ("./produtos/produtosDog.php");
+    include ("./produtos/produtosHome.php");
 
-    foreach ($produtos['cachorro'] as $produto) {
+    foreach ($produtosHome['varios'] as $produto) {
 
         echo "<div class='card'>";
         echo "<img src='" . $produto['imagem'] . "' alt='" . $produto['produto'] . "'>";

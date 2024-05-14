@@ -1,39 +1,5 @@
-<style>
 
-    
-    h1 {
-        align-items: center;
-    }
-
-    /* Estilo para centralizar o conteúdo na tela */
-    .container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 25px;
-    }
-
-
-
-    .form-post {
-        border: 1px solid #764ea0;
-        border-radius: 15px;
-        padding: 30px 80px;
-        font-weight: bold;
-        font-family: Ubuntu, sans-serif;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 20px;
-        color: #764ea0;
-    }
-
-    .titulo{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 12px;
-
-    }
-</style>
+<link rel="stylesheet" href="./public/src/components/cardCadastro/cardCadastro.css">
 
 
 

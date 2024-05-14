@@ -22,7 +22,7 @@ $produtosPeixes = array(
         ),
         array(
             'imagem' => './produtos/img-produtos/peixes/aquario3Em1CFiltro.jpg',
-            'produto' => 'Arranhador top',
+            'produto' => 'Aquario 3em1',
             'preco' => 299,99
         ),
         array(
