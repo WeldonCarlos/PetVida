@@ -1,9 +1,8 @@
-<nav>
+<link rel="stylesheet" href="./public/src/components/navCateg/navCateg.css">
+<nav  >
 
-    <ul class="nav justify-content-start   "
-        style="background-color: #764ea0;  gap:30px ;  height: 50px; align-items: center; margin-top:40px; font-family: Ubuntu, sans-serif; font-weight: 500;
-        font-style: normal; font-size: 20px; ">
-        <li class="nav-item" style=" margin-left: 85px  ">
+    <ul class="nav  ">
+        <li class="nav-item" style="  ">
             <a class="nav-link active" aria-current="page" href="index.php?page=dog" style="color: white;">Cachorro</a>
         </li>
         <li class="nav-item">
